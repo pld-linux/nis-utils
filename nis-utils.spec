@@ -61,7 +61,7 @@ Biblioteka statyczna nisdb wraz z plikami nagłówkowymi i dokumentacją.
 
 %prep
 %setup -q
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %configure2_13
